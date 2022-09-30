@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.foodmanagement">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FOODMANAGEMENT">
+        <activity
+            android:name=".Login_Signup">
+
+        </activity>
+
+
+        <activity android:name=".SplashScreen">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".restaurant.RestaurantDisplay" />
+        <activity android:name=".Ngo.NGO_Restaurantdisplay" />
+        <activity android:name=".Ngo.NGO_farmerdisplay" />
+        <activity android:name=".farmer.FarmerDisplay" />
+        <activity android:name=".farmer.FarmerShow" />
+        <activity android:name=".farmer.FarmerWelcome" />
+        <activity android:name=".restaurant.RestaurantOrder" />
+        <activity android:name=".restaurant.RestaurantUpload" />
+        <activity android:name=".restaurant.RestaurantMain" />
+        <activity android:name=".Ngo.NgoMain" />
+        <activity android:name=".farmer.FarmerUpload" />
+        <activity android:name=".ForgotPassword" />
+        <activity android:name=".farmer.FarmerLogin" />
+        <activity android:name=".Ngo.NgoSignup" />
+        <activity android:name=".restaurant.RestaurantSignup" />
+        <activity android:name=".Ngo.NgoLogin" />
+        <activity android:name=".restaurant.RestaurantLogin" />
+        <activity android:name=".farmer.FarmerSignup" />
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

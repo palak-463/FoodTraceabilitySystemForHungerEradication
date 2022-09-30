@@ -1,29 +1,52 @@
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
 
-buildscript {
-    repositories {
-        google()
-        jcenter()
+android {
+    compileSdkVersion 31
+
+    defaultConfig {
+        applicationId "com.example.foodmanagement"
+        minSdkVersion 16
+        multiDexEnabled true
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
-    dependencies {
 
-        classpath 'com.android.tools.build:gradle:7.2.1'
-        classpath 'com.google.gms:google-services:4.3.13'
-
-        // NOTE: Do not place your application dependencies here; they belong
-        // in the individual module build.gradle files
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
 }
 
-allprojects {
-    repositories {
-        google()
-        jcenter()
-        apply plugin: 'com.google.gms.google-services'
+dependencies {
 
-    }
-}
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation "com.google.android.material:material:1.3.0-alpha04"
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+     implementation 'com.google.firebase:firebase-database:20.0.5'
 
-task clean(type: Delete) {
-    delete rootProject.buildDir
+    implementation 'com.google.firebase:firebase-auth:21.0.6'
+    implementation 'com.google.firebase:firebase-core:18.0.0'
+    implementation 'com.firebaseui:firebase-ui-database:6.2.1'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'androidx.navigation:navigation-fragment:2.2.2'
+    implementation 'androidx.navigation:navigation-ui:2.2.2'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.2.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0'
+    implementation 'com.getbase:floatingactionbutton:1.10.1'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 }
