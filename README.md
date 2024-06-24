@@ -4,7 +4,9 @@ Food Traceability System for Hunger Eradication is an application with three ent
 
 # Food Traceability System For Hunger Eradication Web App
 
-In this project, there are three modules i.e. Admin, Donor, and User.
+In this project, there are three modules, i.e. Admin, Donor, and User.
+
+<br><br><br>
 
 Admin:
 
