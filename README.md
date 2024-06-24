@@ -1,5 +1,7 @@
 # Food Traceability System For Hunger Eradication Android App
 
+Food Traceability System for Hunger Eradication is an application with three entities, farmer, restaurant, NGO. These three entities can be connected to each other in a way where the restaurant can buy grains and vegetables from the farmer,and donate its leftover food to the NGO. Also, the farmer can donate food to restaurants as well as NGOs. The NGOs would be receiving food from the farmers as well as restaurants. This system would thereby serve as a social and capital model which would eliminate the cost of middlemen, and thereby help NGOs receive food at a minimal cost, and the farmers and restaurants can sell their products easily, also, the restaurants can purchase grains and vegetables at a low price. Therefore, this system can be used to generate profit, and also reduce food wastage and help in eradicating hunger.
+
 User Credentials:
 Farmer: pardeshipalak463@gmail.com
 Password: Palak@463
@@ -9,9 +11,6 @@ Password: Tanu1604
 
 NGO: suhanishinde20.03@gmail.com
 Password: Suhani@463
-
-Description:
-Food Traceability System for Hunger Eradication is an application with three entities, farmer, restaurant, NGO. These three entities can be connected to each other in a way where the restaurant can buy grains and vegetables from the farmer,and donate its leftover food to the NGO. Also, the farmer can donate food to restaurants as well as NGOs. The NGOs would be receiving food from the farmers as well as restaurants. This system would thereby serve as a social and capital model which would eliminate the cost of middlemen, and thereby help NGOs receive food at a minimal cost, and the farmers and restaurants can sell their products easily, also, the restaurants can purchase grains and vegetables at a low price. Therefore, this system can be used to generate profit, and also reduce food wastage and help in eradicating hunger.
 
 Admin Credentials:
 Username: admin
@@ -23,7 +22,6 @@ Password: abcd1234 (or register a new donor)
 
 # Food Traceability System For Hunger Eradication Web App
 
-Description:
 In this project, there are three modules i.e. Admin, Donor, and User.
 
 Admin:
@@ -52,5 +50,3 @@ About Us Page: User can see the details of the website.
 Contact Us Page: User can see the contact details and contact the website administrator.
 Food Available List: User can view available donated food and send the request for food.
 Request Food: The user can also request available food.
-
-Github Link: https://github.com/palak-463/Food_Traceability_System_For_Hunger_Eradication.git
