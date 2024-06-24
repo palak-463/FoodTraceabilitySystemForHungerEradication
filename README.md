@@ -29,7 +29,7 @@ Search Listed Food: In this section, admin can search food request by request nu
 
 Reports: In this section, admin can view donated food and registered food donors in a particular period. Admin can also update his profile, change the password and recover the password.
 
-
+<br><br><br>
 
 Donor:
 
@@ -43,7 +43,7 @@ Search: In this section, donor can search food requests by request number.
 
 Donors can also update their profile, change their password and recover their password.
 
-
+<br><br><br>
 
 User:
 
