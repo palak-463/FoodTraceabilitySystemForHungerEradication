@@ -6,21 +6,30 @@ Food Traceability System for Hunger Eradication is an application with three ent
 
 In this project, there are three modules i.e. Admin, Donor, and User.
 
-Admin:
-Dashboard: In this section, admin can view total state, total city, total food donors, total listed food, 
-all food requests, new food requests, rejected food requests, and completed food requests.
+Admin:<br>
+Dashboard: <br>In this section, admin can view total state, total city, total food donors, total listed food, 
+all food requests, new food requests, rejected food requests, and completed food requests.<br>
+
 State: In this section, admin can manage the state (Add/Update/Delete).
+
 City: In this section, admin can manage the city (Add/Update/Delete).
+
 Registered Food Donor:In this section, admin can view registered food donors.
+
 Listed Food: In this section, admin can view the listed food by the food donor.
-Food Request:In this section, admin can view the request for food that is sent the user.
+
+Food Request: In this section, admin can view the request for food that is sent the user.
+
 Inquiry: In this section, admin can view and maintain the inquiry.
+
 Pages: In this section, admin can manage the about us and contact us pages.
+
 Search Listed Food: In this section, admin can search food request by request number.
+
 Reports: In this section, admin can view donated food and registered food donors in a particular period. Admin can also update his profile, change the password and recover the password.
 
-Donor:
-Dashboard: In this section, donor can view total listed food and the total food takeaway.
+Donor:<br>
+Dashboard: <br>In this section, donor can view total listed food and the total food takeaway.
 List Your Food Details: In this section, donor can list the donated food detail.
 Requests: In this section, donor can view the request which is sent by the user.
 Search: In this section, donor can search food requests by request number.
