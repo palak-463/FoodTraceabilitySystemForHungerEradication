@@ -29,6 +29,8 @@ Search Listed Food: In this section, admin can search food request by request nu
 
 Reports: In this section, admin can view donated food and registered food donors in a particular period. Admin can also update his profile, change the password and recover the password.
 
+
+
 Donor:
 
 Dashboard: In this section, donor can view total listed food and the total food takeaway.
@@ -40,6 +42,8 @@ Requests: In this section, donor can view the request which is sent by the user.
 Search: In this section, donor can search food requests by request number.
 
 Donors can also update their profile, change their password and recover their password.
+
+
 
 User:
 
