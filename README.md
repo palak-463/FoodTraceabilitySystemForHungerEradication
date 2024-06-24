@@ -6,7 +6,7 @@ Food Traceability System for Hunger Eradication is an application with three ent
 
 In this project, there are three modules, i.e. Admin, Donor, and User.
 
-<br><br>
+<br>
 
 Admin:
 
@@ -43,7 +43,7 @@ In this section, admin can view donated food and registered food donors in a par
 
 Admin controls the entire system and therefore has a view of every entity and the attributes related to it.
 
-<br><br>
+<br>
 
 Donor:
 
@@ -61,7 +61,7 @@ In this section, donor can search food requests by request number.
 
 Donors can update their profile, change their password and recover their password.
 
-<br><br>
+<br>
 
 User:
 
