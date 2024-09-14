@@ -1,83 +1,78 @@
-# Food Traceability System For Hunger Eradication Android App
+# 🍽️ Food Traceability System For Hunger Eradication
 
-Food Traceability System for Hunger Eradication is an application with three entities, farmer, restaurant, NGO. These three entities can be connected to each other in a way where the restaurant can buy grains and vegetables from the farmer,and donate its leftover food to the NGO. Also, the farmer can donate food to restaurants as well as NGOs. The NGOs would be receiving food from the farmers as well as restaurants. This system would thereby serve as a social and capital model which would eliminate the cost of middlemen, and thereby help NGOs receive food at a minimal cost, and the farmers and restaurants can sell their products easily, also, the restaurants can purchase grains and vegetables at a low price. Therefore, this system can be used to generate profit, and also reduce food wastage and help in eradicating hunger.
+**Food Traceability System for Hunger Eradication** is a mobile and web-based platform designed to streamline the connection between farmers, restaurants, and NGOs. This system aims to reduce food wastage and eradicate hunger by creating a direct channel between entities, eliminating middlemen, and helping farmers and restaurants sell and donate food more effectively.
 
-# Food Traceability System For Hunger Eradication Web App
+### 🚜 Entities Involved:
 
-In this project, there are three modules, i.e. Admin, Donor, and User.
+- **Farmers**: Sell grains and vegetables to restaurants or donate them to NGOs.
+- **Restaurants**: Purchase grains and vegetables from farmers and donate leftover food to NGOs.
+- **NGOs**: Receive food donations from both farmers and restaurants.
 
-<br>
-
-Admin:
-
-Dashboard: 
-In this section, admin can view total state, total city, total food donors, total listed food, 
-all food requests, new food requests, rejected food requests, and completed food requests.
-
-State: 
-In this section, admin can manage the state (Add/Update/Delete).
-
-City: 
-In this section, admin can manage the city (Add/Update/Delete).
-
-Registered Food Donor:
-In this section, admin can view registered food donors.
-
-Listed Food: 
-In this section, admin can view the listed food by the food donor.
-
-Food Request: 
-In this section, admin can view the request for food that is sent the user.
-
-Inquiry: 
-In this section, admin can view and maintain the inquiry.
-
-Pages: 
-In this section, admin can manage the about us and contact us pages.
-
-Search Listed Food: 
-In this section, admin can search food request by request number.
-
-Reports: 
-In this section, admin can view donated food and registered food donors in a particular period. Admin can also update his profile, change the password and recover the password.
-
-Admin controls the entire system and therefore has a view of every entity and the attributes related to it.
+The system serves as a social and capital model by reducing costs for NGOs and allowing food to flow seamlessly between farmers and restaurants, ultimately helping in the fight against hunger.
 
 <br>
 
-Donor:
+## 📱 Food Traceability System For Hunger Eradication (Android App)
 
-Dashboard: 
-In this section, donor can view total listed food and the total food takeaway.
+In this application, three entities (Farmer, Restaurant, and NGO) are connected to facilitate food transactions, donations, and purchases. The app ensures efficient food distribution and reduces food waste, promoting a more sustainable solution to hunger.
 
-List Your Food Details: 
-In this section, donor can list the donated food detail.
+### Features:
+- 🌾 **Farmer Module**:
+  - Donate food to NGOs.
+  - Sell grains and vegetables to restaurants.
 
-Requests: 
-In this section, donor can view the request which is sent by the user.
+- 🍽️ **Restaurant Module**:
+  - Buy grains and vegetables from farmers at a reduced cost.
+  - Donate leftover food to NGOs.
 
-Search: 
-In this section, donor can search food requests by request number.
+- 🏥 **NGO Module**:
+  - Receive food donations from both farmers and restaurants.
+  - Distribute food to those in need.
 
-Donors can update their profile, change their password and recover their password.
+The Android app helps optimize the supply chain, reducing food waste and helping with hunger eradication.
 
 <br>
 
-User:
+## 🌐 Food Traceability System For Hunger Eradication (Web App)
 
-Home Page: 
-User can visit the website and check the details.
+The web app includes three modules: **Admin**, **Donor**, and **User**.
 
-About Us Page: 
-User can see the details of the website.
+### 🔧 Admin Features:
+- **Dashboard**: View total states, cities, food donors, listed food, and food requests (new, rejected, completed).
+- **State Management**: Add, update, or delete states.
+- **City Management**: Add, update, or delete cities.
+- **Registered Food Donors**: View all registered food donors.
+- **Listed Food**: See the food listed by donors.
+- **Food Requests**: Monitor food requests from users.
+- **Inquiry Management**: Manage inquiries.
+- **Pages Management**: Control the "About Us" and "Contact Us" pages.
+- **Search Food Requests**: Search food requests by request number.
+- **Reports**: View reports on donated food and food donors during a specific period.
+- **Profile Management**: Update profile information, change or recover password.
 
-Contact Us Page: User 
-can see the contact details and contact the website administrator.
+### 🍴 Donor Features:
+- **Dashboard**: View the total food listed and takeaways.
+- **List Food Details**: Add food details for donation.
+- **View Requests**: Check user requests for donated food.
+- **Search Requests**: Find food requests by request number.
+- **Profile Management**: Update profile, change or recover password.
 
-Food Available List: 
-User can view available donated food and send the request for food.
+### 👤 User Features:
+- **Home Page**: View the website’s general details.
+- **About Us Page**: Learn about the website's mission.
+- **Contact Us Page**: Contact the website administrator.
+- **Available Food List**: View donated food and request it.
+- **Request Food**: Send a request for available food.
+- **Profile Management**: Update profile, change or recover password.
 
-Request Food: 
-The user can also request available food.
+<br>
 
-Users can also update their profile, change their password and recover their password.
+## ✨ Technologies Used
+
+| Mobile (Android) | Web (Frontend)   | Web (Backend)  |
+| ---------------- | ---------------- | -------------- |
+| Java/Kotlin      | HTML/CSS         | Node.js        |
+| Android Studio   | JavaScript (React)| Express.js     |
+| Firebase         | Bootstrap        | MongoDB        |
+
+<br>
