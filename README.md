@@ -71,8 +71,8 @@ The web app includes three modules: **Admin**, **Donor**, and **User**.
 
 | Mobile (Android) | Web (Frontend)   | Web (Backend)  |
 | ---------------- | ---------------- | -------------- |
-| Java/Kotlin      | HTML/CSS         | Node.js        |
-| Android Studio   | JavaScript (React)| Express.js     |
-| Firebase         | Bootstrap        | MongoDB        |
+| Java             | HTML             | PHP            |
+| XML              | CSS              | JavaScript     |
+| Firebase         | Bootstrap        | MySQL          |
 
 <br>
